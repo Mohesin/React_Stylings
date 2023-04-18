@@ -21,6 +21,8 @@ const CourseInput = (props) => {
       return;
     }
     props.onAddGoal(enteredValue);
+    setEnteredValue('')
+    alert('Goal Added.!')
   };
 
   return (
@@ -28,6 +30,7 @@ const CourseInput = (props) => {
       <div className="form-control">
         <label style={{ color: !isValid ? "red" : "black" }}>Course Goal</label>
         <input
+        value = {enteredValue}
           style={{ borderColor: !isValid ? "red" : "black" ,
                    background : !isValid ? "salmon" : 'transparent'
                   }}

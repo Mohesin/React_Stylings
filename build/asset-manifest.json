@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_Stylings/static/css/main.e2a7c66e.css",
+    "main.js": "/React_Stylings/static/js/main.19682bd3.js",
+    "index.html": "/React_Stylings/index.html",
+    "main.e2a7c66e.css.map": "/React_Stylings/static/css/main.e2a7c66e.css.map",
+    "main.19682bd3.js.map": "/React_Stylings/static/js/main.19682bd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2a7c66e.css",
+    "static/js/main.19682bd3.js"
+  ]
+}
